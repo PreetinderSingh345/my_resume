@@ -1,0 +1,596 @@
+/*body*/
+
+body{
+
+	font-family:sans-serif;
+	margin:0;
+
+}
+
+/*section*/
+
+section:nth-child(2n-1){
+
+	background-color:white;
+
+}
+
+section:nth-child(2n){
+
+	background-color:#EFEFEF;
+
+}
+
+/*header*/
+
+header{
+	
+	height:75vh;
+	background-image:url("ResumeProject-Images/apple-wallpaper.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:bottom;
+	background-attachment:fixed;
+	opacity:0.8;	
+
+}
+
+#header-content{
+
+	height: 55vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+
+#nav-list li{
+
+	margin:0 5px;	
+
+}
+
+#nav-list li a{
+
+	font-size:0.85rem;	
+	border-bottom:1px solid white;
+	transition:border-color 1s ease-in-out;
+
+}
+
+#nav-list li a:hover{
+
+	border-color:black;
+
+}
+
+#name{
+
+	color:white;
+	font-size:3rem;
+	font-weight:bold;	
+	text-align:center		
+
+}
+
+#social-list li{
+
+	margin: 0 5px;
+
+}
+
+#social-list li a{
+
+	display:flex;	
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	transition:box-shadow 1s ease-in-out;
+	justify-content:center;
+	align-items:center;
+
+}
+
+#social-list li a:hover{
+
+	box-shadow:0 0 4px 6px lightgrey;
+
+}
+
+/*horizontal-list*/
+
+.horizontal-list{
+
+	list-style:none;
+	padding: 0;
+	text-align: center;
+
+}
+
+.horizontal-list li{
+
+	display:inline-block;
+
+}
+
+.horizontal-list li a{
+
+	color:white;
+	text-decoration:none;
+
+}
+
+/*about section*/
+
+.flex-display{
+
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+
+}
+
+.flex-display span i{
+
+	margin-right:10px;
+
+}
+
+#about img{
+
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	margin-top:-100px;
+	position:relative;
+	border:2px solid white;
+	box-shadow:0 0 4px 4px lightgrey;
+
+}
+
+#about-content{
+
+	text-align:justify;	
+	font-size:1.1rem;
+	width:75%;
+	margin:30px 0 60px;
+	color:grey;
+	line-height:1.8rem;	
+
+}
+
+#about-content span{
+
+	color:#2857a4;
+	font-weight:bold;
+
+}
+
+/*skills section*/
+
+#skills-content{
+
+	width:75%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	margin-bottom:60px;
+
+}
+
+.heading{
+
+	font-size:2rem;
+	color:#2857a4;
+	margin:60px 0 100px;
+
+}
+
+#skills .heading{
+
+	margin:60px 0 100px;
+
+}
+
+.skills-container{
+
+	height:40px;
+	width:180px;
+	background-color:grey;
+	margin:20px;	
+	border-radius:20px;
+	background-color:#D3D3D3;
+	box-shadow:0 0 2px 2px grey inset;	
+
+}
+
+.skills-style{
+
+	color:white;
+	font-size:1.2rem;
+	padding:10px 0 0 10px;
+
+
+}
+
+#cpp{
+
+	height:inherit;
+	width:50%;
+	background-color:#2857A4;
+	border-radius:20px 0 0 20px;
+
+}
+
+#html{
+
+	height:inherit;
+	width:90%;
+	background-color:#EC5729;
+	border-radius:20px 0 0 20px;
+	
+}
+
+#css{
+
+	height:inherit;
+	width:85%;
+	background-color:#93738C;
+	border-radius:20px 0 0 20px;
+	
+}
+
+#javascript{
+
+	height:inherit;
+	width:50%;
+	background-color:#279892;
+	border-radius:20px 0 0 20px;
+	
+}
+
+#javascript .skills-style{
+
+	font-size:1.1rem;
+	padding-left:8px;
+
+}
+
+#nodejs{
+
+	height:inherit;
+	width:50%;
+	background-color:#2857A4;
+	border-radius:20px 0 0 20px;
+	
+}
+
+#mongodb{
+
+	height:inherit;
+	width:85%;
+	background-color:#93738C;	
+	border-radius:20px 0 0 20px;
+	
+}
+
+/*experience section*/
+
+.experience-education-content{
+
+	width:70%;
+	position:relative;
+	margin-bottom:60px;
+
+}
+
+.experience-education-box:nth-child(2n){
+
+	align-self:flex-start;
+
+}
+
+.experience-education-box:nth-child(2n-1){
+
+	align-self:flex-end;
+
+}
+
+.experience-education-box{
+	
+	width:40%;
+	margin:20px 0;
+	position:relative;
+
+}
+
+.experience-education-heading{
+
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-start;
+	margin-bottom:20px;
+
+}
+
+.experience-education-description{
+
+	text-align:justify;
+	color:grey;
+	font-size:0.9rem;
+	line-height:1.2rem;
+
+}
+
+.image-div img{
+
+	height:45px;
+	width:45px;
+
+}
+
+.company-institute-div{
+
+	text-align:right;
+
+}
+
+.designation-degree{
+
+	color:#2857A4;
+	font-size:1.2rem;
+	font-weight:bold;
+	margin-bottom:4px;
+
+}
+
+.company-institute-name{
+
+	color:#DF953A;	
+
+}
+
+.duration{
+
+	color:grey;
+	font-size:0.9rem;
+
+}
+
+.timeline{
+
+	position:absolute;
+	height:67%;
+	width:0;
+	border:1px dashed lightblue;
+	margin-top:-8%;
+
+}
+
+.timeline i{
+
+	color:#2857A4;
+	transform:rotate(90deg);
+	font-size:2rem;
+	display:block;
+	position:sticky;
+	top:15%;
+	z-index:1;
+
+}
+
+.experience-education-box:nth-child(2n)::after{
+
+	content:"";
+	display:inline-block;
+	position:absolute;
+	height:12px;
+	width:12px;
+	border-radius:50%;
+	background-color:grey;
+	top:26%;
+	right:-26.6%;
+
+}
+
+.experience-education-box:nth-child(2n-1)::before{
+
+	content:"";
+	display:inline-block;
+	position:absolute;
+	height:12px;
+	width:12px;
+	border-radius:50%;
+	background-color:grey;
+	top:26%;
+	left:-26.6%;
+
+}
+
+#education .image-div img{
+
+	border-radius:10px;
+
+}
+
+/*portfolio section*/
+
+#portfolio-content{
+
+	width:80%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:center;	
+	margin-bottom:60px;
+
+}
+
+.project-container{
+
+	height:200px;
+	width:200px;	
+	margin:30px;
+	border-radius:10px;	
+	position:relative;
+	text-align:center;
+
+}
+
+.project-container img{
+
+	height:inherit;
+	width:inherit;	
+	border-radius:inherit;
+
+}
+
+.project-description{
+
+	height:inherit;
+	width:inherit;
+	border-radius:inherit;
+	color:white;
+	font-size:1.2rem;
+	position:absolute;
+	box-sizing:border-box;
+	padding:20px 10px;
+	top:0;	
+	opacity:0;	
+	transition:opacity 1s ease-in-out, background-color 1s ease-in-out, box-shadow 1s ease-in-out;	
+
+}
+
+.project-container:hover .project-description{
+	
+	opacity:1;
+	background-color:lightgrey;
+	box-shadow:0 0 4px 4px #EFEFEF;	
+
+}
+
+/*contact section*/
+
+#contact{
+
+	background-image:linear-gradient(to top right, #2857a4, #403066);
+
+}
+
+#contact .heading{
+
+	color:white;	
+
+}
+
+#contact-content{
+
+	width:80%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-items:flex-start;
+
+}
+
+#contact-form, #contact-info{
+
+	width:45%;		
+
+}
+
+#contact-form input, textarea, button{
+
+	display:block;
+	background-color:inherit;
+
+}
+
+#contact-form input, textarea{
+
+	width:90%;
+	margin:40px 0;
+	border:none;
+	border-bottom:2px solid white;
+	padding:5px 10px;
+
+}
+
+#contact-form button{
+	
+	margin:40px auto 40px auto;	
+	color:white;
+	font-weight:bold;
+	letter-spacing:0.1rem;
+	border:2px solid white;
+	padding:10px;
+	border-radius:2px;
+
+}
+
+
+#git-heading, #address-heading{
+
+	font-size:1.2rem;
+	color:white;
+	font-weight:bold;
+	margin-bottom:20px;
+
+}
+
+#git-content{
+
+	width:90%;
+	color:white;
+	font-size:0.8rem;
+	margin-bottom:20px;
+	text-align:justify;
+
+}
+
+#address ul{
+
+	list-style:none;
+	padding-left:0;
+	color:white;
+
+}
+
+#address ul li{
+
+	margin-bottom:20px;
+
+}
+
+#contact-social-list li{
+
+	margin:30px 30px 60px;
+
+}
+
+#contact-social-list li a{
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:30px;
+	width:30px;	
+	border-radius:50%;
+	transition:box-shadow 1s ease-in-out;
+
+}
+
+#contact-social-list li a:hover{
+
+	box-shadow:0 0 4px 6px lightgrey;
+
+}
